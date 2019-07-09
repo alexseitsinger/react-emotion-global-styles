@@ -14,16 +14,16 @@ npm i @alexseitsinger/react-emotion-global-styles --save
 
 ```javascript
 import { 
-  Normalize, Sanitize, Optimize, FontAwesome 
+  NormalizeStyles, SanitizeStyles, OptimizeStyles, FontAwesomeStyles 
 } from "@alexseitsinger/react-emotion-global-styles"
 
 function App() {
   return (
     <React.Fragment>
-      <Normalize />
-      <Sanitize />
-      <Optimize />
-      <FontAwesome />
+      <NormalizeStyles />
+      <SanitizeStyles />
+      <OptimizeStyles />
+      <FontAwesomeStyles />
       <div>
         This is some content
       </div>
