@@ -1,6 +1,6 @@
 {
   "name": "@alexseitsinger/react-emotion-global-styles",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A collection of emotion global style components.",
   "main": "dist/main.js",
   "homepage": "https://www.alexseitsinger.com/packages/node/react-emotion-global-styles",
