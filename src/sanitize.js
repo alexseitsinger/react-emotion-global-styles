@@ -1,7 +1,7 @@
 import React from "react"
 import { Global, css } from "@emotion/core"
 
-export function Sanitize() {
+export function SanitizeStyles() {
   return (
     <Global
       styles={css`

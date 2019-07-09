@@ -1,7 +1,7 @@
 import React from "react"
 import { css, Global } from "@emotion/core"
 
-export function FontAwesome() {
+export function FontAwesomeStyles() {
   return (
     <Global
       styles={css`

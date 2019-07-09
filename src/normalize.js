@@ -1,7 +1,7 @@
 import React from "react"
 import { Global, css } from "@emotion/core"
 
-export function Normalize() {
+export function NormalizeStyles() {
   return (
     <Global
       styles={css`

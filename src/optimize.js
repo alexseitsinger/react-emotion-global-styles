@@ -1,7 +1,7 @@
 import React from "react"
 import { Global, css } from "@emotion/core"
 
-export function Optimize() {
+export function OptimizeStyles() {
   return (
     <Global
       styles={css`
