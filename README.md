@@ -2,7 +2,7 @@
 
 ## Description
 
-A collection of global styles.
+A collection of emotion global style components.
 
 ## Installation
 
@@ -14,7 +14,7 @@ npm i @alexseitsinger/react-emotion-global-styles --save
 
 ```javascript
 import { 
-  Normalize, Sanitize, Optimize 
+  Normalize, Sanitize, Optimize, FontAwesome 
 } from "@alexseitsinger/react-emotion-global-styles"
 
 function App() {
@@ -23,6 +23,7 @@ function App() {
       <Normalize />
       <Sanitize />
       <Optimize />
+      <FontAwesome />
       <div>
         This is some content
       </div>
