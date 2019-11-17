@@ -31,36 +31,38 @@
     "optimize"
   ],
   "devDependencies": {
-    "@babel/core": "7.5.0",
+    "@babel/core": "7.7.2",
     "@babel/plugin-proposal-export-namespace-from": "7.5.2",
     "@babel/plugin-syntax-export-namespace-from": "7.2.0",
-    "@babel/plugin-transform-runtime": "^7.5.0",
-    "@babel/preset-env": "7.5.3",
-    "@babel/preset-react": "7.0.0",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "7.7.1",
+    "@babel/preset-react": "7.7.0",
     "babel-core": "7.0.0-bridge.0",
-    "babel-jest": "24.8.0",
+    "babel-jest": "24.9.0",
     "babel-loader": "8.0.6",
-    "babel-plugin-emotion": "10.0.14",
+    "babel-plugin-emotion": "10.0.23",
     "enzyme": "3.10.0",
-    "enzyme-adapter-react-16": "1.14.0",
-    "jest": "24.8.0",
-    "jest-emotion": "10.0.14",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "webpack": "4.35.3",
-    "webpack-cli": "3.3.5",
+    "enzyme-adapter-react-16": "1.15.1",
+    "jest": "24.9.0",
+    "jest-emotion": "10.0.17",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.10",
     "webpack-node-externals": "1.7.2"
   },
   "dependencies": {
-    "@babel/runtime": "7.5.3",
-    "@emotion/core": "10.0.14",
-    "core-js": "3.1.4"
+    "@babel/runtime-corejs3": "^7.7.2",
+    "@emotion/core": "^11.0.0-next.5",
+    "core-js": "3.4.1"
   },
   "peerDependencies": {
-    "react": "16.8.6"
+    "react": "^16.8.6"
   },
   "scripts": {
-    "build": "./node_modules/.bin/webpack",
+    "build:production": "./node_modules/.bin/webpack --config=webpack.config.js",
+    "build:development": "./node_modules/.bin/webpack --config=webpack.config.dev.js",
+    "build": "yarn run build:development && yarn run build:production",
     "test": "./node_modules/.bin/jest"
   }
 }
