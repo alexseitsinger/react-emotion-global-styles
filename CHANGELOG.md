@@ -1,3 +1,7 @@
+<a name="v0.1.1"></a>
+## [v0.1.1](https://github.com/alexseitsinger/react-emotion-global-styles/compare/v0.1.0...v0.1.1) (2019-11-17)
+
+
 <a name="v0.1.0"></a>
 ## [v0.1.0](https://github.com/alexseitsinger/react-emotion-global-styles/compare/f82a7fef3ab155e40096760e9e4c8624ba2f01b6...v0.1.0) (2019-07-09)
 
