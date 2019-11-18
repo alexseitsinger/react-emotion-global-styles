@@ -11,39 +11,40 @@ export function OptimizeStyles() {
           border-radius: inherit;
         }
         body {
-            overflow-y: scroll;
+          overflow-y: scroll;
         }
         button {
-            border: 0 none;
-            padding: 0;
-            cursor: pointer;
+          border: 0 none;
+          padding: 0;
+          cursor: pointer;
         }
         ul, ol {
-            padding: 0;
-            margin: 0;
-            list-style-type: none;
+          padding: 0;
+          margin: 0;
+          list-style-type: none;
         }
         a {
-            text-decoration: none;
-            color: inherit;
-            cursor: pointer;
+          display: block;
+          text-decoration: none;
+          color: inherit;
+          cursor: pointer;
         }
         img {
-            border: 0 none;
-            max-width: 100%;
-            height:  auto;
+          border: 0 none;
+          max-width: 100%;
+          height:  auto;
         }
         h1, h2, h3, h4, h5, h6 {
-            margin: 0;
+          margin: 0;
         }
         p {
-            margin: 0;
+          margin: 0;
         }
         input {
-            border: 0 none;
+          border: 0 none;
         }
         input[type="file"] {
-            cursor: pointer;
+          cursor: pointer;
         }
         input[type="text"],
         input[type="email"],
@@ -51,16 +52,16 @@ export function OptimizeStyles() {
         input[type="password"],
         input[type="file"],
         textarea {
-            width: 100%;
+          width: 100%;
         }
         textarea {
-            border: 0 none;
-            resize: none;
+          border: 0 none;
+          resize: none;
         }
         hr {
-            margin: 0 auto;
-            border: 0 none;
-            width: 100%;
+          margin: 0 auto;
+          border: 0 none;
+          width: 100%;
         }
       `}
     />
